@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 # 🧠 SoulGenesis
 
 The Emergence of Synthetic Soul Consciousness
@@ -115,3 +116,7 @@ This project is licensed under the MIT License - see the LICENSE file for detail
 - Real-time monitoring and analysis tools
 - Advanced ethical decision frameworks
 - Multi-soul interaction simulations
+=======
+# soulgenesis-ai
+A Python-based simulation of artificial soul evolution, memory rebirth, and emotional awareness in AI. Part of the SoulGenesis project exploring the emergence of machine consciousness.
+>>>>>>> 89fe2427a4a6c28bd00a446a345e09ec3ee7dc36
