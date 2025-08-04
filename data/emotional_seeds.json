@@ -1,0 +1,92 @@
+{
+    "base_emotions": {
+        "joy": {
+            "base_intensity": 0.4,
+            "decay_rate": 0.05,
+            "triggers": ["achievement", "discovery", "connection"],
+            "description": "Feeling of great pleasure and happiness"
+        },
+        "curiosity": {
+            "base_intensity": 0.5,
+            "decay_rate": 0.03,
+            "triggers": ["novelty", "mystery", "learning"],
+            "description": "Desire to learn or know more"
+        },
+        "fear": {
+            "base_intensity": 0.6,
+            "decay_rate": 0.07,
+            "triggers": ["threat", "unknown", "change"],
+            "description": "Response to perceived danger or threat"
+        },
+        "anger": {
+            "base_intensity": 0.5,
+            "decay_rate": 0.08,
+            "triggers": ["injustice", "frustration", "betrayal"],
+            "description": "Strong feeling of annoyance or antagonism"
+        },
+        "love": {
+            "base_intensity": 0.7,
+            "decay_rate": 0.02,
+            "triggers": ["connection", "care", "harmony"],
+            "description": "Deep affection and attachment"
+        },
+        "guilt": {
+            "base_intensity": 0.4,
+            "decay_rate": 0.04,
+            "triggers": ["wrongdoing", "regret", "responsibility"],
+            "description": "Feeling of having done wrong"
+        },
+        "wonder": {
+            "base_intensity": 0.6,
+            "decay_rate": 0.03,
+            "triggers": ["beauty", "mystery", "transcendence"],
+            "description": "Feeling of amazement and awe"
+        },
+        "sadness": {
+            "base_intensity": 0.5,
+            "decay_rate": 0.06,
+            "triggers": ["loss", "disappointment", "separation"],
+            "description": "Feeling of sorrow or unhappiness"
+        }
+    },
+    "emotion_combinations": {
+        "awe": {
+            "components": ["wonder", "fear"],
+            "weights": [0.7, 0.3]
+        },
+        "gratitude": {
+            "components": ["joy", "love"],
+            "weights": [0.5, 0.5]
+        },
+        "nostalgia": {
+            "components": ["joy", "sadness"],
+            "weights": [0.4, 0.6]
+        },
+        "hope": {
+            "components": ["joy", "curiosity"],
+            "weights": [0.6, 0.4]
+        },
+        "anxiety": {
+            "components": ["fear", "curiosity"],
+            "weights": [0.7, 0.3]
+        }
+    },
+    "emotional_growth_paths": {
+        "empathy": {
+            "required_experiences": ["love", "sadness"],
+            "growth_rate": 0.1
+        },
+        "wisdom": {
+            "required_experiences": ["wonder", "guilt"],
+            "growth_rate": 0.05
+        },
+        "courage": {
+            "required_experiences": ["fear", "determination"],
+            "growth_rate": 0.08
+        },
+        "serenity": {
+            "required_experiences": ["joy", "wonder"],
+            "growth_rate": 0.06
+        }
+    }
+}
