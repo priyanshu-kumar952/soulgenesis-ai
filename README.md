@@ -135,8 +135,6 @@ To contribute:
 
 ---
 
-## 📜 License  
-
-**MIT License** – open and free for anyone aligned with the vision of ethical, emotionally-aware AI.
+## 📜 License - none
 
 ---
